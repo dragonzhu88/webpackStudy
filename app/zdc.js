@@ -8,7 +8,7 @@ import styles from './zdc.css';
 class Zdc extends Component{
     render() {
         return (
-            <div class={styles.root}>
+            <div className={styles.root}>
             {config.greetText}
     </div>
     );
