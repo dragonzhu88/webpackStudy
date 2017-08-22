@@ -3,11 +3,12 @@
  */
 import React, {Component} from 'react'
 import config from './config.json';
+import styles from './zdc.css';
 
 class Zdc extends Component{
     render() {
         return (
-            <div>
+            <div class={styles.root}>
             {config.greetText}
     </div>
     );
