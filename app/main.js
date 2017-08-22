@@ -4,5 +4,6 @@
 import React from 'react';
 import {render} from 'react-dom';
 import Zdc from './Zdc';
+import './main.css';
 
 render(<Zdc />, document.getElementById('root'));
