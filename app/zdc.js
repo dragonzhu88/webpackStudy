@@ -1,8 +1,17 @@
 /**
  * Created by dragon on 2017/8/17.
  */
-module.exports = function() {
-    var zdc = document.createElement('div');
-    zdc.textContent = "Hi there and greetings!";
-    return zdc;
-};
+import React, {Component} from 'react'
+import config from './config.json';
+
+class Zdc extends Component{
+    render() {
+        return (
+            <div>
+            {config.greetText}
+    </div>
+    );
+    }
+}
+
+export default Zdc
